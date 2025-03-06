@@ -14,5 +14,9 @@ export class AppComponent {
   ngOnInit(): void {
     this.title="Hello from Bridgelabz!!!! ";
   }
+  onClick($event : any){
+    console.log("Save button is clicked!!!",$event);
+    window.open('https://www.bridgelabz.com/',"_blank");
+  }
 }
 
