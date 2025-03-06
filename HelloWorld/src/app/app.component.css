@@ -4,3 +4,9 @@ img{
     width: 25%;
 
 }
+.error-output{
+    color: red;
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 20px;
+}
